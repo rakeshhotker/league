@@ -58,7 +58,7 @@ function Home() {
   />
 </Link>
     </div>
-        <video poster={pic1} className='videoTag' autoPlay loop muted>
+        <video poster={pic1} className='videoTag' autoPlay loop>
             <source src={home2} type='video/mp4' />
         </video>
     </div>
