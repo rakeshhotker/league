@@ -3,19 +3,24 @@ import Home from './Components/Home';
 import Download from './Components/Download';
 import Login from './Components/Login';
 import Contact from './Components/Contact';
-import {Links} from "react-router-dom";
+import {Link} from "react-scroll"
 
 function App() {
   return (
     <div className="App">
-      <Switch>
+    <Home/>
+    <Download/>
+    <Login/>
+    <Contact/>
+      {/* <Switch>
       <Route path="/" exact component={Home}/>
       <Route path="/Login" exact component={Login}/>
       <Route path="/Download" exact component={Download}/>
       <Route path="/Contact" exact component={Contact}/>
 
         
-      </Switch>
+      </Switch> */}
+
       
     </div>
   );

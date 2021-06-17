@@ -1,9 +1,10 @@
 import React from 'react'
-import "./Styles/contact.css"
+import "./style.css"
+
 function Contact() {
     return (
-        <div className="contactall">
-            Contact
+        <div className="contactall" id="Contact">
+            
         </div>
     )
 }

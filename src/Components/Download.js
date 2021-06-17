@@ -1,8 +1,10 @@
 import React from 'react'
-import "./Styles/download.css"
+import "./style.css"
+
+
 function Download() {
     return (
-        <div className="container">
+        <div className="downloadall" id="download">
             
         </div>
     )

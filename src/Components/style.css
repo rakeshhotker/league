@@ -1,0 +1,54 @@
+
+.homeall{
+    background-image: url("./img/img1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: .1vh;
+    
+    margin: 4px;
+}
+.link{
+       
+}
+.videoTag{
+    height: 80vh;
+    width: 50vw;
+    position: absolute;
+    top: 0px;
+    left: 24.4vw;
+}
+
+.downloadall{
+    background-image: url("./img/img3.jpg");
+    height: 100vh;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.loginall{
+    background-image: url("./img/img6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.contactall{
+    background-image: url("./img/img2.jpg");
+    height: 100vh;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}

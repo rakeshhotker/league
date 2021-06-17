@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Styles/login.css"
+import "./style.css"
 function Login() {
     return (
-        <div className="loginall">
-            Login
+        <div className="loginall" id="login">
+            
         </div>
     )
 }
